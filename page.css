@@ -1,0 +1,53 @@
+.card{
+    display: inline-block;
+    gap: 3px;
+    justify-content: space;
+    width: 300px;
+    margin:30px auto;
+    padding: 10px 30px ;
+    border: 2px solid rgb(72, 255, 0);
+
+}
+
+img{
+    width: 300px;
+}
+.card-img{
+    width:100%;
+    border-radius: 30px;
+}
+a:link{
+    color: rgb(65, 165, 42);
+}
+a:hover{
+    color:rgb(227, 22, 172);
+
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: rgb(47, 227, 255);
+}
+
+
+h1{
+    text-align: center;
+    color: brown;
+    background-color: black;
+    position: sticky;
+    top:0;
+}
+h1::first-letter{
+    font-size: 100px;
+    color:blueviolet;
+    background-color: bisque;
+}
+
+p::first-line{
+    font-style: italic;
+    font-size: 40px;
+    
+}
+
+
