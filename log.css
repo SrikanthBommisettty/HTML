@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    width: 300px;
+    background-color:blueviolet;
+    color: aliceblue;
+    margin: 40px auto;
+
+}
+
+.login{
+    width: 200px;
+    padding: 50px;
+    border: 2px solid brown;
+    background-color:rgba(226, 43, 43, 0.681);
+    margin: 50px auto;
+}
+body{
+    background-color: palevioletred;
+}
