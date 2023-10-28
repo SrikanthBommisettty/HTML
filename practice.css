@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    width:100%;
+    background-color: blueviolet;
+    text-decoration: underline;
+    font-size: 60px;
+    
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    padding: 50px;
+    color: white;
+}
+h3{
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
