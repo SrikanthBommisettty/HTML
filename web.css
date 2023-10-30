@@ -1,0 +1,13 @@
+#tittle{
+    text-align: center;
+    color: black;
+    background-color: rgb(236, 255, 127);
+    padding: 100px;
+}
+#btn{
+    width: 100px;
+    background-color: black;
+    color: bisque;
+    padding: 10px;
+
+}
