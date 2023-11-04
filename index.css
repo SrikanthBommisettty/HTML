@@ -1,0 +1,93 @@
+.main{
+    background-color: black;
+    
+
+}
+
+.heading{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    margin: 30px 0px;
+    padding: 50px 100px;
+    /* flex-wrap: wrap; */
+    
+}
+.img1{
+    position: absolute;
+    width:90%;
+    height: 255em;
+    margin: 150px;
+    padding: 300px 100px 100px 0px;
+    overflow: hidden;
+    opacity: 0.6;
+    /* flex-wrap: wrap; */
+    
+}
+.title{
+    position: relative;
+    font-size: 300px;
+    color: antiquewhite;
+    /* flex-wrap: wrap; */
+    margin:10px;
+    padding: 0px 0px 0px 150px;
+}
+.sub-title{
+    margin: 0px;
+    padding: 450px 150px ;
+    color: rgba(255, 255, 255, 0.859);
+    
+}
+
+.list{
+    display: inline-flex;
+    margin: 30px;
+    padding-left: 100px;
+    
+    font-size: 90px;
+}
+.space-flex{
+    padding: 25em 0px;
+    display: flex;
+}
+.flexing{
+    width: 50%;
+    font-size: 100px;
+}
+.second-h{
+    font-size: 400px;
+}
+.paragraph{
+    font-size: 90px;
+    padding:80px 0px 0px 100px;
+    margin: 50px 100px;
+    width: 40%;
+}
+.image{
+    display: inline-flex;
+    overflow-x: auto;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20px 20px;
+    
+}
+.studio-space{
+    text-align: center;
+    margin: 500px;
+    font-size: 90px;
+    padding: 50px;
+}
+.btn{
+    border: 1px solid #f9f5f5;
+    color: rgb(239, 237, 236);
+    background-color: black;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 80px;
+    padding: 50px;
+    margin: 80px;
+}
+button:hover{
+    background-color: rgb(245, 7, 7);
+}
