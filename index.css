@@ -1,65 +1,86 @@
 .main{
     background-color: black;
-    
+    flex-wrap: wrap;
 
 }
 
 .heading{
     position: relative;
-    font-size: 60px;
+    font-size: 20px;
     color: white;
-    margin: 30px 0px;
-    padding: 50px 100px;
+    margin: 5px 0px 0px 55px;
+    padding: 20px 0px 0px 55px;
     /* flex-wrap: wrap; */
     
 }
+.img2{
+    /* float: left; */
+    width: 100px;
+    height: 100%;
+    padding: -30px 0px 0px 80px;
+    margin: -10px 0px 0px 80px;
+    display: block;
+    position: relative;
+}
+#butt{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 50px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+}
+#button{
+    margin:0px 150px 10px 0px ;
+    padding: 10px 20px;
+    width: 180px;
+    border-radius: 0px;
+}
 .img1{
     position: absolute;
-    width:90%;
-    height: 255em;
-    margin: 150px;
-    padding: 300px 100px 100px 0px;
+    width:85%;
+    margin: 0px 0px 40px 40px ;
+    padding: 0px 20px 40px 40px;
     overflow: hidden;
     opacity: 0.6;
+    /* display: inline-block; */
     /* flex-wrap: wrap; */
     
 }
 .title{
     position: relative;
-    font-size: 300px;
-    color: antiquewhite;
+    font-size: 65px;
+    color: white;
     /* flex-wrap: wrap; */
-    margin:10px;
-    padding: 0px 0px 0px 150px;
+    margin:-30px;
+    /* padding: 0px 0px 0px 50px; */
 }
 .sub-title{
-    margin: 0px;
-    padding: 450px 150px ;
+    margin: -30px;
+    /* padding: 0px 90px 0px 140px ; */
     color: rgba(255, 255, 255, 0.859);
     
 }
 
 .list{
     display: inline-flex;
-    margin: 30px;
-    padding-left: 100px;
-    
-    font-size: 90px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
 }
 .space-flex{
-    padding: 25em 0px;
+    padding: 250px 0px;
     display: flex;
 }
 .flexing{
     width: 50%;
-    font-size: 100px;
+    font-size: 20px;
 }
 .second-h{
-    font-size: 400px;
+    font-size: 100px;
 }
 .paragraph{
-    font-size: 90px;
-    padding:80px 0px 0px 100px;
+    font-size: 20px;
+    padding:20px 0px 0px 100px;
     margin: 50px 100px;
     width: 40%;
 }
@@ -68,14 +89,14 @@
     overflow-x: auto;
     width: auto;
     height: auto;
-    margin: 20px;
-    padding: 20px 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     
 }
 .studio-space{
     text-align: center;
-    margin: 500px;
-    font-size: 90px;
+    margin: 100px;
+    font-size: 20px;
     padding: 50px;
 }
 .btn{
@@ -83,11 +104,118 @@
     color: rgb(239, 237, 236);
     background-color: black;
     display: inline-block;
-    border-radius: 20px;
-    font-size: 80px;
-    padding: 50px;
-    margin: 80px;
+    /* border-radius: 10px; */
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px ;
+    position: relative;
+    width: 250px;
+    height: 60px;
 }
 button:hover{
     background-color: rgb(245, 7, 7);
+}
+.img3{
+    width: 380px;
+    height:700px;
+}
+.img4{
+    width: 600px;
+    height:750px;
+    margin-top: 150px;
+    padding-left: 80px;
+}
+.thestudiopart{
+    display: inline-flex;
+}
+.thestudio-heading{
+    margin: 140px 120px 0px 70px;
+    font-size: 90px;
+}
+.thestudio-paragraph{
+    margin: 10px 20px 0px 70px;
+    font-size: 20px;
+}
+.thestudio-list{
+    font-size: 20px;
+    margin: 40px 20px 0px 70px;
+    line-height: 50px;
+}
+hr{
+    margin: 40px 15px ;
+    opacity: 0.5;
+}
+.button{
+    border: 1px solid red;
+    background-color: rgba(202, 9, 9, 0.829);
+    color: white;
+    margin: 50px 50px 0px 100px;
+    font-size: 15px;
+    padding: 20px 60px;
+}
+button:hover{
+    background-color: white;
+    color: rgba(202, 9, 9, 0.829);
+}
+.production-layer{
+    background-color: black;
+    margin: 200px 0px 0px 0px;
+    text-align: center;
+}
+.production-layerheading1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 40px 0px 0px;
+    padding: 150px 0px 0px;
+}
+hr{
+    margin: 40px 25% 0px 25% ;
+}
+.production-layerheading2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.secondpart{
+    background-color: black;
+}
+.production-button{
+    text-align: center;
+    padding: 20px 50px ;
+    background-color: rgba(197, 12, 12, 0.932);
+    margin: 10px 20px;
+    border: 1px solid rgba(181, 10, 10, 0.839);
+    font-size: 15px;
+}
+.production-button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.stayconnected{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stayconnectedpart-1{
+    font-size: 80px;
+    color: aqua;
+    padding-left: 60px;
+    margin-top: 80px;
+    padding-top: 80px;
+    width: 50%;
+}
+.staypara{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+.form1{
+    width: 50%;
+    padding: 30px;
+    margin-left: 20px;
 }
