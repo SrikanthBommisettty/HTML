@@ -1,0 +1,57 @@
+
+h1{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.card{
+    background-color: aqua;
+    width: 50%;
+    border:2px solid black;
+    margin: 100px;
+    padding: 30px;
+}
+.main{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+
+}
+#text{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    width: 200px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    
+}
+#email{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    width: 200px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+}
+#btn{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    width: 100px;
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: blue;
+    border-radius: 12px;
+    color: white;
+    border: none;
+
+}
