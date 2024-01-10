@@ -1,0 +1,47 @@
+body {
+    background-color: #f861c6f8;
+    background-image: url(https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?w=2000);
+    background-size: cover;
+    margin: 10% 20%;
+    color: #ecb8a5;
+    font-family: Arial, "sans serif";
+  }
+  
+  h1 { 
+    padding-bottom: 5%;
+    font-size: 40px;
+    font-family: 'Fresca', sans-serif;
+  }
+  
+  header {
+    padding: 0;
+    margin: 0 15%;
+    color: #f8f3f3f5;
+    text-align: center;
+  }
+  .CheckBox {
+    padding: 10% ;
+    margin: 5%;
+    background-color: #01548b;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  input, 
+  button {
+    margin: 2%;
+  }
+  
+  #rules {
+    padding-top: 2%;
+    display: none;
+  }
+  
+  #rules ul li {
+    text-align: left;
+  }
+  
+  #error {
+    color: rgb(0, 140, 255);
+    display : none;
+  }
